@@ -1,0 +1,16 @@
+*{
+    margin-top: 0%;
+    margin-right: 0%;
+    margin-left: 0%;
+}
+
+
+header{
+    display: flex;
+    height: 12vh;
+    
+}
+
+nav ul{
+    list-style: none;
+}

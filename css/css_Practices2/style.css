@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding:0;
+
+}
+body{
+    height: auto;
+}
+
+#webName{
+    margin-top: 0px;
+    color: white;
+    width: 300px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    position: sticky;
+    top:0;
+
+    
+    /* justify-content: center; */
+    /* text-align: center; */
+    
+}
+
+.head{
+
+
+    background-color: black;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    transition: 1s;
+    
+    
+    border-bottom: 5px solid wheat;
+    
+
+
+    
+}
+.head:hover{
+height: 12vh;
+transition: 1s;
+
+}
+nav ul {
+    height: 12vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}    
+nav ul li{ 
+    list-style: none;
+     
+    padding: 0px 23px;
+
+}    
+.footer{
+    margin-top: 39%;
+    margin-bottom: 0px;
+    background-color: black;
+    color: wheat;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    border-top: 5px solid wheat;
+    position: sticky;
+    bottom: 0px;
+    /* transition: 2s; */
+
+
+}
+/* .footer:hover{
+    height: 12vh;
+    transition: 1s; */
+
+
+
+.listlink {  
+    /* nav ul li a */
+    /* list-style: none; */
+    text-decoration: none;
+    color: wheat;
+
+    
+    
+}
+.nav-button{
+    height: 50px;
+    width: 50px;
+    color:bisque;
+    background-color: rgb(37, 37, 37);
+    border-radius: 20px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.main{
+    display: flex;
+    
+    margin-left: 100px;
+    background-color: red;
+    width: 200px;
+    position: sticky;
+    top:0;
+
+}
