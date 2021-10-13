@@ -1,0 +1,46 @@
+:root {
+    --main-bg-color: #0a0b59;
+}
+
+.bg-black {
+    background-color: black;
+}
+.bg-white{
+    background-color: white;
+}
+.bg-button{
+    background-color: rgb(46, 143, 212) ;
+    
+}
+.text-red {
+    color: red;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* .float-right{
+    float: right;
+} */
+
+.bg-main {
+    background-color: var(--main-bg-color);
+}
+
+.text-white {
+    color: aliceblue;
+}
+
+.b-2-s-burly {
+    border: 2px solid burlywood;
+}
+/* .button{ */
+    /* background-color:blue; */
+/* } */
+.hover-font:hover{
+    font-size: large;
+    transition: 1s;
+
+    
+}

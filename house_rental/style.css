@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+* {
+    margin-top: 0%;
+    margin-left: 0;
+    margin-right: 0;
+}
+body {
+    
+    
+    background-image: url("background_project.jpg");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 50%;
+    background-position-y: 30%;
+    background-attachment:scroll;
+    
+}
+
+/* .bg-img{
+    display: flex;
+    border: 2px solid red;
+    height: 100px;
+
+    
+} */
+
+#logo {
+    display: flex;
+}
+
+
+
+#college_name {
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    display: flex;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+    margin-top: 0%;
+    height: 1px;
+    cursor:pointer;
+    /* height: 50px; */
+    font-size: xx-large;
+    border: 2px solid burlywood;
+    border-radius: 10px;
+    text-align: center;
+    transition: 10s;
+    position: relative;
+    
+
+}
+#college_name:hover{
+    height: 10vh;
+    transition: 1s;
+}
+
+* {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#head {
+    position: fixed;
+    top: 0;
+    /* position: relative; */
+    height: 12vh;
+    border: 2px solid burlywood;
+    border-radius: 10px;
+    display: flex;
+    width: 100%;
+    
+}
+
+#webName {
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+    font-style: italic;
+    font-size: x-large;
+}
+
+nav ul {
+    margin-right: 0px;
+    margin-left: 545px;
+    list-style: none;
+    /* padding-left: 930px; */
+    height: 12vh;
+    /* display flex change the poster of  contant from horizontal to vertical and vice-versa  */
+    display: flex;
+    /* justify-content used to  move the content from any position to any place .  */
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navlink {
+    
+    color: antiquewhite;
+    /* text-decoration help to decorate text. */
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 23px;
+    cursor: pointer;
+    align-items: center;
+    transition: 1s;
+    
+}
+
+.hov-button:hover {
+    background-color: blue;
+
+}
+button{
+    
+    
+    margin-right: 23px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    background-color: rgb(101, 101, 176);
+    color: aliceblue;
+    cursor: pointer;
+
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    
+}
+#main{
+    display: flex;
+}
+
+#main-content {
+    margin-top: 100px;
+    margin-left: 100px;
+    padding: 20px;
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    width: 500px;
+    flex-direction: column;
+    font-size: larger;
+    box-shadow: 0px 10px 10px 5px grey;
+}
+
+#moreInfo {
+    position: relative;
+    transition: 2s;
+    transition-timing-function:ease-in-out;
+}
+
+#info {
+    margin-top: 12px;
+}
+#moreInfo:focus{
+    height: 500px;
+}
+
+#footer {
+    /* margin-top: 30%; */
+    margin-top: 80vh;
+    color: white;
+    border: 2px solid burlywood;
+    border-radius: 10px;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    height: 12vh;
+    font-size: medium;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    bottom: 0px;
+}
+
+footer a {
+    justify-content: center;
+    /* text-decoratio; */
+    color: antiquewhite;
+    /* font-family: 'Lato', sans-serif; */
+    /* font-weight: 100;   */
+}
+.nav-button{
+    padding-left: 20px;
+    display: flex;
+}
+
+/* head:hover{
+    height: 5px;
+    transition: 2s;
+} */
+
