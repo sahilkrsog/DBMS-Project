@@ -11,42 +11,56 @@
     <script src="index.js"></script>
     <link href='https://css.gg/home-alt.css' rel='stylesheet'>
 
+    <script>
+        function openNav() {
+            document.getElementById("cont").style.height = "auto";
 
+        }
+        function signIn() {
+            document.getElementById("signInContainer").style.height= "auto";
+        }
+
+    </script>
+    <style>
+        #signInContainer:hover{
+            height:auto;
+            transition: 0.9s;
+
+        }
+    </style>
 
 </head>
 
 <body>
     <!-- <div id=empty style=" height:0.1px;"></div> -->
-    <div class="mainHead">
+    <!-- <div class="mainHead">
         <section id="college_name" class="text-red text-center bg-black">
-            <!-- <a href="logo.jpg"class="logo"><i class="name-college"></i>Galgotia</a> -->
+             <a href="logo.jpg"class="logo"><i class="name-college"></i>Galgotia</a>
             Galgotia College of Engineering & Technology
 
-        </section>
-        <header>
-            <div id="head" class=" bg-main">
-                <span id="webName">Your Home</span>
+        </section> -->
+    <header>
+        <div id="head" class=" bg-main">
+            <span id="webName">Your Home</span>
 
-                <nav>
-                    <ul id=nav-list class="  float-right ">
-                        <li> <a class="hover-font navlink" href="/"><i class="gg-home-alt"></i>Home</a></li>
-                        <li> <a class="hover-font navlink" href="/">About</a></li>
-                        <li> <a class="hover-font navlink" href="/">Contact</a></li>
-                        <div class="nav-button">
-                            <button class="   bg-button hover-font"><a href="/">Sign in</button></a>
-                        </button>
-                        
-                        
-                        
-                        <button class="  bg-button hover-font ">
-                            <a href="/">Register</a>
-                        </button>
-                    </ul>
-                        </div>
+            <nav>
+                <!-- <span id="opennav" onclick="openNav()">&#9776;open</span> -->
+                <ul id=nav-list class="  float-right ">
+                    <li> <a class="hover-font navlink" href="/"><i class="gg-home-alt"></i>Home</a></li>
+                    <li> <a class="hover-font navlink" href="/">About</a></li>
+                    <li> <a class="hover-font navlink" href="/">Contact</a></li>
+                    <div class="nav-button">
+                        <div id="sign" onclick="signIn()">
+                        <button  class="bg-button hover-font">Sign in</button>
+                    </div>
+                        <button class="bg-button hover-font " onclick="openNav()">Sign UP</button>
+                </ul>
+            </nav>
+        </div>
 
-                </nav>
-            </div>
-        </header>
+
+        </div>
+    </header>
     </div>
     <main id="main">
         <div id="main-content">
@@ -59,19 +73,99 @@
             </p>
             <div id="moreInfo"></div>
             <div id=info type="button" onclick="myFunction()">
-                <button class="hov-button bg-button">
-                    moreInfo
-                </button>
+                <button class="hov-button bg-button">moreInfo</button>
             </div>
 
         </div>
-        <div class="bg-img">h</div>
+        <div id="cont" class="container">
+            <div class="title">
+                <h1>Registration</h1>
+            </div>
+            <form action="#">
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">First Name</span>
+                        <input type="text" placeholder="First Name">
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Last name</span>
+                        <input type="text" placeholder="Last Name">
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Email</span>
+                        <input type="email" placeholder="Email">
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Password</span>
+                        <input type="password" placeholder="password">
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Confirm password </span>
+                        <input type="password" placeholder="confirm password">
+                    </div>
+                    <div class="gender-details">
+                        <span class="gender-title">Gender</span>
+                        <div class="radio">
+                            <div class="male">
+                                <input type="radio" name=gender>
+                                <span>Male</span>
+
+                            </div>
+                            <div class="female">
+                                <input type="radio" name=gender>
+                                <span>Female</span>
+                            </div>
+                            <div class="other">
+                                <input type="radio" name=gender>
+                                <span>Other</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="input-button">
+                        <span class="details"></span>
+                        <input id="submit" class="bg-blue" style="background-color: blue;" type="submit" value="submit">
+                        <a href="/house_rental/"><button class="bg-blue">close</button></a>
+
+                    </div>
+
+                </div>
+
+            </form>
+        </div>
+        <div id="signInContainer">
+            <form action="#">
+                <div class="id">
+                    <div id="signIn-Input">
+                        <span>UserId
+                        </span>
+                        <input class="details" type="text" placeholder="UserId">
+
+                    </div>
+                </div>
+                <div class="password">
+                    <span>Password</span>
+                    <div class="signIn-Input">
+                        <input class="details" type="password" placeholder="Password">
+                    </div>
+                </div>
+                <div class="sign-button">
+                    <input id="login-button" type="submit" value="submit">
+                    <button  onclick="openNav()"> SignUp</button>
+                </div>
+            </form>
+        </div>
+
+
+
+
+
 
     </main>
-    <footer id="footer" class=" text-white text-center bg-main b-2-s-burly ">
+    <footer id="footer" class=" text-white  text-center bg-main b-2-s-burly ">
         <!-- This is footer. -->
         copyright &copy;
-        <a class="hover-font" href="/house_rental/index.html">Your Home </a>
+        <a class=" text-white" href="/house_rental/index.html">Your Home </a>
         <!-- &copy describe the copyright symbole -->
     </footer>
 

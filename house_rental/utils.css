@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+
+
+
 :root {
     --main-bg-color: #0a0b59;
+    
 }
 
 .bg-black {
@@ -41,6 +47,10 @@
 .hover-font:hover{
     font-size: large;
     transition: 1s;
-
-    
+}
+.bg-blue{
+    background-color: blue;
+}
+.f-f-lato{
+    font-family: 'Lato', sans-serif;
 }

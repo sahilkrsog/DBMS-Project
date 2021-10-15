@@ -62,9 +62,9 @@ body {
 
 #head {
     position: fixed;
-    top: 0;
+    /* top: 0; */
     /* position: relative; */
-    height: 12vh;
+    height: 10vh;
     border: 2px solid burlywood;
     border-radius: 10px;
     display: flex;
@@ -197,3 +197,134 @@ footer a {
     transition: 2s;
 } */
 
+    
+.title{
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Lato', sans-serif;
+    font-size: larger;
+    text-align: center;
+    margin-top: 0px;
+    flex-wrap: wrap;
+
+
+    /* font-style:oblique; */
+}
+
+
+.container{
+    height: 0px;
+    width: 300px;
+
+    position:fixed;
+    top: 80px;
+    right: 50vh;
+    
+    
+    background-color:white;
+    z-index: 1;
+    overflow-x: hidden;
+    /* transition: 2s; */
+    /* padding-top: 60px; */
+    opacity: 0.93;
+    border-radius: 20px;
+    align-items: center;
+    box-shadow: 1px 1px  1px 1px rgb(32, 27, 27);
+
+}        
+
+.user-details{
+    height: 100%;
+    padding:10px,0px;
+    display:block;
+    /* justify-content: space-around; */
+
+}
+.input-box
+{
+    padding-top: 10px;
+    padding-left: 30px;
+    
+}
+input{
+    display: block;
+}
+.radio{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    /* justify-content: center; */
+    
+}
+.male {
+    display: ruby;
+    /* padding-right: 23px; */
+}
+.female{
+    display: ruby;
+}    
+.other{
+    display:ruby;
+
+}
+input {
+    border-radius: 10px;
+    padding: 10px 5px;
+
+}
+.gender-details{
+    padding-top: 10px;    
+}
+#submit{
+    margin-right: 23px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    background-color: rgb(101, 101, 176);
+    color: aliceblue;
+    cursor: pointer;
+
+}
+.input-button{
+    
+    display: ruby;
+}
+
+#signInContainer{
+    position:fixed;
+    overflow-x: hidden;
+    top: 10vh;
+    right: 0;
+    height:0%;
+    width: auto;
+    /* display:block; */
+    z-index: 1;
+    transition: 0.9s;
+    background-color: white;
+    border-radius: 10px;
+    opacity: 0.9;
+    border: 2px solid #e6dfdf;
+    
+
+
+}
+.sign-button{
+    display: flex;
+}
+#login-button{
+    margin-right: 23px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    background-color: rgb(101, 101, 176);
+    color: aliceblue;
+    cursor: pointer;
+
+
+}
